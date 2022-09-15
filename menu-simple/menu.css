@@ -1,0 +1,38 @@
+header .encabezado{
+    background: #17181d;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+header .nav{
+    height: 100px;
+    width: 100%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content:right;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px;
+    padding: 15px;
+    font-family: 'Maven Pro', sans-serif;
+}
